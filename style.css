@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.logo-img {
+    width: 50%;
+}
+
+
+.menu {
+    display: flex;
+    margin-right: 30px;
+    gap: 15px;
+    color: #777777;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+.banner {
+    margin: 0 auto;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%; 
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.modelo {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.model-one {
+    margin-top: 5%;
+    height: 80vh;
+}
+
+.model-two {
+    width: 50%;
+}
+
+.item-container-venda {
+    width: 100%;
+    margin-top: 10%;
+    background-color: #C2185B;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.logo-offer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+h5 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+.boxes {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    margin-top: 5%;
+    width: 19.3%;
+    height: 58vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    box-shadow: 1px 1px 5px rgb(97, 97, 97);
+}
+
+.box-one-img, .box-two-img, .box-three-img, .box-four-img {
+    width: 100%;
+}
+
+.box-one-text, .box-two-text, .box-three-text, .box-four-text {
+    margin-left: 3%;
+}
+
+.item-container-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.item-details {
+    display: flex;
+    flex-direction: row;
+    margin-left: 13.5%;
+    margin-top: 5%;
+}
+
+.info-details {
+    
+}
+
+.title-details {
+    font-size: 2.4em;
+}
+
+.btn-details {
+    margin-top: 1%;
+    border-style: none;
+    font-size: 1.8em;
+    color: white;
+    background-color: #C2185B;
+    width: 403px;
+    height: 99px;
+    align-items: center;
+    justify-content: center;
+}
+
+.model-one-sandails {
+    margin-left: 2%;
+}
