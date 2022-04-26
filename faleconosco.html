@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça parte do nosso time</title>
+    <link href="./css/stylefaleConosco.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <header>
+        <nav>
+            <div class="logo">
+            <img class="logo-img" src="./images/shoes-logo-2 1.png">
+            </div>
+            <ul class="menu">
+                <li>TODOS OS PRODUTOS</li>
+                <li>COLEÇÕES</li>
+                <li>OUTLET</li>
+            </ul>
+        </nav>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <section class="form">
+            <div>
+                <h1>Faça parte do nosso time</h1>
+            </div>
+            <br>
+
+            <!-- DADOS DO USUÁRIO -->
+            <form action="registro.html" method="POST">
+                <div>
+                    <label for="name">Nome</label>
+                    <br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <div>
+                    <label for="tel">Telefone</label>
+                    <br>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+                <br>
+
+                <!-- DEPARTAMENTOS  -->
+                <div>
+                    <label for="departamentos">Departamentos</label>
+                    <br>
+                    <select name="departamentos">
+                        <option value="developer">Desenvolvedor</option>
+                        <option value="software-Engineer">Software Engineer</option>
+                        <option value="analistTI">Analista de Sistemas</option>
+                    </select>
+                </div>
+                <br>
+
+                <!-- DISPONIBILIDADE DE HORÁRIOS -->
+                    <label for="periodo">Disponibilidade</label>
+                    <br>
+                <div class="disponibilidade">
+                    <div class="integral">
+                        <input type="checkbox" value="integral" name="periodo" id="integral">
+                        <label for="periodo" class="integral ">Integral(8h)</label>
+                    </div>
+
+                    <div class="meio-periodo">
+                        <input type="checkbox" value="meio-periodo" name="periodo" id="meio-periodo">
+                        <label for="periodo">Meio período(4h)</label>
+                    </div>
+
+                    <div class="freelancer">
+                        <input type="checkbox" value="freelancer" name="periodo" id="freelancer">
+                        <label for="periodo" class="freelancer lado">Freelancer</label>
+                    </div>
+                </div>
+                <br>
+
+                <!-- FORMAS DE CONTATO -->
+
+                    <label for="contato">Qual a melhor forma para entrarmos em contato com você?</label>
+                    <br>
+                <div class="contato">
+                    <div>
+                    <input type="radio" name="contato" id="email" value="email">
+                    <label for="contato">Email</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" name="contato" id="call" value="call">
+                    <label for="contato">Ligação</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" name="contato" id="whatsApp" value="whatsApp">
+                    <label for="contato">WhatsApp</label>
+                    </div>
+                </div>
+                <br>
+
+                <!-- MENSAGEM PARA A EMPRESA -->
+                <div>
+                    <label for="comentario">Mensagem</label>
+                    <br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="60"></textarea>
+                </div>
+
+                <div>
+                    <label for="curriculo">Currículo</label>
+                    <label for="file-upload" class="file-upload">Upload</label>
+                    <input id="file-upload" type="file">
+                </div>
+                
+                <input type="submit">
+            </form>
+
+        </section>
+
+
+        <!-- TEXTO SECUNDÁRIO -->
+        <section class="about-us">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, sapiente quo quibusdam possimus ipsum et! Minima tempore accusamus debitis molestias culpa. Tempore quod molestiae rem distinctio expedita illo est doloremque.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, eius delectus! Repellendus impedit maxime distinctio porro, tempore dolorum assumenda velit et enim eligendi ipsum molestias! Perspiciatis ducimus incidunt cum labore!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum facilis fuga nemo iusto ipsam error nobis. Molestias sint itaque fugit unde explicabo corporis consectetur, veritatis, quasi labore, earum aliquid.</p>
+        </section>
+    </main>
+    
+</body>
+</html>
